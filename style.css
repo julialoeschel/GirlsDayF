@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+:root {
+  --hintergrundfarbe: aqua;
+  --zweitFarbe: blueviolet;
+  --hintergrundBild: url("https://images.unsplash.com/photo-1474511320723-9a56873867b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGFuaW1hbHN8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60");
+  --schriftArt: "Shadows Into Light", cursive;
+  --schriftFarbe: turquoise;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--hintergrundfarbe);
+}
+
+header {
+  background-image: var(--hintergrundBild);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  position: relative;
+  padding: 30vh 20px;
+  text-align: center;
+  color: white;
+  height: 100%;
+}
+
+section h2 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+}
+
+li div {
+  background-color: var(--zweitFarbe);
+  border-radius: 10px;
+  padding-left: 5px;
+}
+li span {
+  font-family: var(--schriftArt);
+  font-size: 25px;
+  display: block;
+  text-align: center;
+}
+
+.hobbys {
+  margin-top: 40px;
+}
+
+.hobbysContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.hobbys img {
+  border-radius: 30px;
+}
+
+footer {
+  background-color: var(--zweitFarbe);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
